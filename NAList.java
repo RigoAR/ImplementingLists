@@ -1,10 +1,10 @@
 class NAList<T> {
     private Object[] array;
     private int size;
-    private static final int INITIAL_CAPACITY = 10;
+    private static final int maxSize = 10;
 
     public NAList() {
-        array = new Object[INITIAL_CAPACITY];
+        array = new Object[maxSize];
         size = 0;
     }
 
